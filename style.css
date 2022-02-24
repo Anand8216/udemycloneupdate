@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif, Montserrat;
+}
+
+navbar {
+    width: 100%;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #111;
+
+}
+
+a:hover {
+    color: blue;
+}
+
+form {
+    border: 1px solid #111;
+    width: 380px;
+    padding: 15px 15px;
+    background: transparent;
+    border-radius: 30px;
+}
+
+input {
+    border: none;
+    /* margin-left:px; */
+    /* transition: 1s; */
+    outline: none;
+
+    flex: 1;
+    width: 90%;
+}
+
+.logo {
+    width: 110px;
+    margin: 15px 15px;
+}
+
+.as {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.secondnav {
+    max-width: 100%;
+    max-height: 4.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    z-index: 1;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.newul {
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.newul li {
+    margin: 15px;
+}
+
+.section {
+    margin-top: 10px;
+    overflow-x: hidden;
+}
+
+.imgs {
+    aspect-ratio: auto 1340 / 400;
+}
+
+.box{
+    position: absolute;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 2.4rem;
+    /* background-color:#111; */
+    left: 10%;
+    top: 35%;
+    /* margin-left:180px; */
+    width: 420px;
+    height: 180px;
+}
+.box h4{
+    font-size:30px ;
+    font-weight: 600;
+}
+p{
+    font-size: 12px;
+}
